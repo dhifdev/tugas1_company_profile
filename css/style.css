@@ -47,6 +47,10 @@ nav ul li a {
   text-decoration: none;
 }
 
+nav ul li a:hover {
+  color: red;
+}
+
 .left-top-menu {
   float: left;
 }
@@ -78,6 +82,11 @@ section article h3 {
 section article button {
   display: block;
   margin: 15px auto;
+}
+
+section article button a {
+  text-decoration: none;
+  color: black;
 }
 
 .bio-container img {
